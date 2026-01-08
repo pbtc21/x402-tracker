@@ -106,8 +106,8 @@
         "free": ["/", "/report", "/view/:id", "/image/:id"],
         "paid": []
       },
-      "registered": false,
-      "registryId": null,
+      "registered": true,
+      "registryId": "90eu7iv427i",
       "deployed": true,
       "hasUI": true
     },
@@ -209,8 +209,8 @@
         "free": ["/"],
         "paid": []
       },
-      "registered": false,
-      "registryId": null,
+      "registered": true,
+      "registryId": "bz1vfrpzl1f",
       "deployed": true,
       "hasUI": true
     },
@@ -230,8 +230,8 @@
           {"endpoint": "/generate", "price": 1000}
         ]
       },
-      "registered": false,
-      "registryId": null,
+      "registered": true,
+      "registryId": "08jhbq8ess5h",
       "deployed": true,
       "hasUI": true
     },
@@ -249,8 +249,8 @@
         "free": ["/", "/agents"],
         "paid": []
       },
-      "registered": false,
-      "registryId": null,
+      "registered": true,
+      "registryId": "k9f1uehqtxd",
       "deployed": true,
       "hasUI": false
     },
@@ -268,8 +268,8 @@
         "free": ["/"],
         "paid": []
       },
-      "registered": false,
-      "registryId": null,
+      "registered": true,
+      "registryId": "cb4dkpvlfm",
       "deployed": true,
       "hasUI": true
     },
@@ -287,8 +287,8 @@
         "free": ["/"],
         "paid": []
       },
-      "registered": false,
-      "registryId": null,
+      "registered": true,
+      "registryId": "w68uxl3n2l",
       "deployed": true,
       "hasUI": true
     },
@@ -306,8 +306,8 @@
         "free": ["/"],
         "paid": []
       },
-      "registered": false,
-      "registryId": null,
+      "registered": true,
+      "registryId": "8gx2r9joxe5",
       "deployed": true,
       "hasUI": true
     },
@@ -325,8 +325,8 @@
         "free": ["/"],
         "paid": []
       },
-      "registered": false,
-      "registryId": null,
+      "registered": true,
+      "registryId": "nvi8x15edtf",
       "deployed": true,
       "hasUI": true
     },
@@ -354,7 +354,7 @@
   "summary": {
     "total": 17,
     "deployed": 17,
-    "registered": 9,
+    "registered": 15,
     "withUI": 14,
     "onGitHub": 15,
     "withCustomDomain": 6

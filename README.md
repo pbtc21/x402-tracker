@@ -8,7 +8,7 @@ Central tracking for all pbtc21 x402 endpoints.
 |--------|-------|
 | Total Endpoints | 17 |
 | Deployed | 17 |
-| Registered on stx402.com | 9 |
+| Registered on stx402.com | 15 |
 | With Frontend UI | 14 |
 | On GitHub | 15 |
 | Custom Domain (pbtc21.dev) | 6 |
@@ -22,20 +22,14 @@ Central tracking for all pbtc21 x402 endpoints.
 | Wallet Intelligence | https://wallet.pbtc21.dev | ✅ |
 | sBTC Yield Calc | https://sbtc-yield.pbtc21.dev | ✅ |
 | sBTC DeFi Intel | https://sbtc-intel.pbtc21.dev | ✅ |
-| Pothole Hunter LA | https://pothole.pbtc21.dev | ❌ |
+| Pothole Hunter LA | https://pothole.pbtc21.dev | ✅ |
 
 ## Not Yet Registered
 
 These endpoints are deployed but not registered on the x402 registry:
 
-- pothole-reporter
-- x402-showcase
-- x402-meme
-- stx402-agents
-- wallet-id-card
-- bitcoin-faces-nft
-- sbtc-print
-- btc-democracy
+- x402-registry (IS the registry)
+- pbtc21-landing (landing page, not API)
 
 ## Not Yet on GitHub
 
