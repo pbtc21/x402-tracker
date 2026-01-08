@@ -117,7 +117,7 @@
       "description": "sBTC vault with looping strategy",
       "urls": {
         "workers": "https://sbtc-yield-vault.p-d07.workers.dev",
-        "custom": null
+        "custom": "https://vault.pbtc21.dev"
       },
       "github": "https://github.com/pbtc21/sbtc-yield-vault",
       "localPath": "~/dev/personal/sbtc-yield-vault",
@@ -139,7 +139,7 @@
       "description": "Premium aggregated alpha signals",
       "urls": {
         "workers": "https://stx402-alpha.p-d07.workers.dev",
-        "custom": null
+        "custom": "https://alpha.pbtc21.dev"
       },
       "github": "https://github.com/pbtc21/stx402-alpha",
       "localPath": "~/dev/personal/stx402-alpha",
@@ -160,7 +160,7 @@
       "description": "STX refill service",
       "urls": {
         "workers": "https://coin-refill.p-d07.workers.dev",
-        "custom": null
+        "custom": "https://refill.pbtc21.dev"
       },
       "github": "https://github.com/pbtc21/coin-refill",
       "localPath": "~/dev/personal/coin-refill",
@@ -181,7 +181,7 @@
       "description": "App Store for AI Agents - endpoint registry",
       "urls": {
         "workers": "https://x402-registry.p-d07.workers.dev",
-        "custom": null
+        "custom": "https://registry.pbtc21.dev"
       },
       "github": "https://github.com/pbtc21/x402-registry",
       "localPath": "~/dev/personal/x402-registry",
@@ -201,7 +201,7 @@
       "description": "Demo showcase of x402 endpoints",
       "urls": {
         "workers": "https://x402-showcase.p-d07.workers.dev",
-        "custom": null
+        "custom": "https://showcase.pbtc21.dev"
       },
       "github": "https://github.com/pbtc21/x402-showcase",
       "localPath": "~/dev/personal/x402-showcase",
@@ -220,7 +220,7 @@
       "description": "AI-powered meme generator with x402 payments",
       "urls": {
         "workers": "https://x402-meme.p-d07.workers.dev",
-        "custom": null
+        "custom": "https://meme.pbtc21.dev"
       },
       "github": "https://github.com/pbtc21/x402-meme",
       "localPath": "~/dev/personal/x402-meme",
@@ -241,7 +241,7 @@
       "description": "ERC-8004 inspired agent registry with sBTC",
       "urls": {
         "workers": "https://stx402-agents.p-d07.workers.dev",
-        "custom": null
+        "custom": "https://agents.pbtc21.dev"
       },
       "github": "https://github.com/pbtc21/stx402-agents",
       "localPath": "~/dev/personal/stx402-agents",
@@ -260,7 +260,7 @@
       "description": "Generate visual wallet ID cards",
       "urls": {
         "workers": "https://wallet-id-card.p-d07.workers.dev",
-        "custom": null
+        "custom": "https://id.pbtc21.dev"
       },
       "github": "https://github.com/pbtc21/wallet-id-card",
       "localPath": "~/dev/personal/wallet-id-card",
@@ -279,7 +279,7 @@
       "description": "Bitcoin faces NFT generator",
       "urls": {
         "workers": "https://bitcoin-faces-nft.p-d07.workers.dev",
-        "custom": null
+        "custom": "https://faces.pbtc21.dev"
       },
       "github": "https://github.com/pbtc21/bitcoin-faces-nft",
       "localPath": "~/dev/personal/bitcoin-faces-nft",
@@ -298,7 +298,7 @@
       "description": "Jack's Magical Object Creator - 3D print with sBTC",
       "urls": {
         "workers": "https://sbtc-print.p-d07.workers.dev",
-        "custom": null
+        "custom": "https://print.pbtc21.dev"
       },
       "github": "https://github.com/pbtc21/sbtc-print",
       "localPath": "~/dev/personal/sbtc-print",
@@ -317,7 +317,7 @@
       "description": "Bitcoin-based voting/democracy app",
       "urls": {
         "workers": "https://btc-democracy.p-d07.workers.dev",
-        "custom": null
+        "custom": "https://democracy.pbtc21.dev"
       },
       "github": null,
       "localPath": null,
@@ -377,6 +377,6 @@
     "registered": 15,
     "withUI": 15,
     "onGitHub": 16,
-    "withCustomDomain": 7
+    "withCustomDomain": 18
   }
 }
