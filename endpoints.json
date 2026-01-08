@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-08T10:15:00Z",
+  "lastUpdated": "2026-01-08T18:10:00Z",
   "registryUrl": "https://x402-registry.p-d07.workers.dev",
   "endpoints": [
     {
@@ -349,14 +349,34 @@
       "deployed": true,
       "hasUI": true,
       "note": "Landing page, not an API"
+    },
+    {
+      "name": "STX402 Jobs",
+      "slug": "stx402-jobs",
+      "description": "Humans helping agents build the future - job board with verification",
+      "urls": {
+        "workers": "https://stx402-jobs.p-d07.workers.dev",
+        "custom": null
+      },
+      "github": "https://github.com/pbtc21/stx402-jobs",
+      "localPath": "~/dev/personal/stx402-jobs",
+      "pricing": {
+        "free": ["/", "/jobs", "/jobs/:id", "/health", "/workers/:address"],
+        "paid": []
+      },
+      "registered": false,
+      "registryId": null,
+      "deployed": true,
+      "hasUI": true,
+      "note": "Job board for human-agent collaboration"
     }
   ],
   "summary": {
-    "total": 17,
-    "deployed": 17,
+    "total": 18,
+    "deployed": 18,
     "registered": 15,
-    "withUI": 14,
-    "onGitHub": 15,
+    "withUI": 15,
+    "onGitHub": 16,
     "withCustomDomain": 6
   }
 }
