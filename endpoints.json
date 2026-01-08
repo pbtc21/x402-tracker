@@ -162,8 +162,8 @@
         "workers": "https://coin-refill.p-d07.workers.dev",
         "custom": null
       },
-      "github": null,
-      "localPath": null,
+      "github": "https://github.com/pbtc21/coin-refill",
+      "localPath": "~/dev/personal/coin-refill",
       "pricing": {
         "free": ["/"],
         "paid": [
@@ -338,7 +338,7 @@
         "workers": "https://pbtc21-landing.p-d07.workers.dev",
         "custom": "https://pbtc21.dev"
       },
-      "github": null,
+      "github": "https://github.com/pbtc21/pbtc21-landing",
       "localPath": "~/dev/personal/pbtc21-landing",
       "pricing": {
         "free": ["/"],
@@ -356,7 +356,7 @@
     "deployed": 17,
     "registered": 9,
     "withUI": 14,
-    "onGitHub": 13,
+    "onGitHub": 15,
     "withCustomDomain": 6
   }
 }
