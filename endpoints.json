@@ -1,0 +1,362 @@
+{
+  "lastUpdated": "2026-01-08T10:15:00Z",
+  "registryUrl": "https://x402-registry.p-d07.workers.dev",
+  "endpoints": [
+    {
+      "name": "x402 Intelligence API",
+      "slug": "stx402-endpoint",
+      "description": "Price aggregation, sentiment analysis, Pyth oracle",
+      "urls": {
+        "workers": "https://stx402-endpoint.p-d07.workers.dev",
+        "custom": "https://x402.pbtc21.dev"
+      },
+      "github": "https://github.com/pbtc21/stx402-endpoint",
+      "localPath": "~/dev/personal/stx402-endpoint",
+      "pricing": {
+        "free": ["/", "/prices", "/prices/all", "/stats"],
+        "paid": [
+          {"endpoint": "/oracle", "price": 1000},
+          {"endpoint": "/sentiment", "price": 1000}
+        ]
+      },
+      "registered": true,
+      "registryId": null,
+      "deployed": true,
+      "hasUI": true
+    },
+    {
+      "name": "Wallet Intelligence",
+      "slug": "wallet-intel",
+      "description": "Deep wallet analysis, DeFi positions, risk scores",
+      "urls": {
+        "workers": "https://wallet-intel.p-d07.workers.dev",
+        "custom": "https://wallet.pbtc21.dev"
+      },
+      "github": "https://github.com/pbtc21/wallet-intel",
+      "localPath": "~/dev/personal/wallet-intel",
+      "pricing": {
+        "free": ["/", "/health"],
+        "paid": [
+          {"endpoint": "/quick/:address", "price": 25000},
+          {"endpoint": "/analyze/:address", "price": 100000}
+        ]
+      },
+      "registered": true,
+      "registryId": null,
+      "deployed": true,
+      "hasUI": true
+    },
+    {
+      "name": "sBTC Yield Calculator",
+      "slug": "sbtc-yield-x402",
+      "description": "Looped leverage yield calculator for sBTC",
+      "urls": {
+        "workers": "https://sbtc-yield-x402.p-d07.workers.dev",
+        "custom": "https://sbtc-yield.pbtc21.dev"
+      },
+      "github": "https://github.com/pbtc21/sbtc-yield-x402",
+      "localPath": "~/dev/personal/sbtc-yield-x402",
+      "pricing": {
+        "free": ["/"],
+        "paid": [
+          {"endpoint": "/calculate-yield", "price": 1000}
+        ]
+      },
+      "registered": true,
+      "registryId": null,
+      "deployed": true,
+      "hasUI": true
+    },
+    {
+      "name": "sBTC DeFi Intelligence",
+      "slug": "sbtc-defi-intel",
+      "description": "Position simulation, agent intel, alpha signals - Clarity decidability showcase",
+      "urls": {
+        "workers": "https://sbtc-defi-intel.p-d07.workers.dev",
+        "custom": "https://sbtc-intel.pbtc21.dev"
+      },
+      "github": null,
+      "localPath": "~/dev/personal/sbtc-defi-intel",
+      "pricing": {
+        "free": ["/", "/overview", "/health"],
+        "paid": [
+          {"endpoint": "/yield-opportunities", "price": 2000},
+          {"endpoint": "/peg-health", "price": 2000},
+          {"endpoint": "/simulate", "price": 5000},
+          {"endpoint": "/agent-intel", "price": 5000},
+          {"endpoint": "/alpha", "price": 5000}
+        ]
+      },
+      "registered": true,
+      "registryId": "qaoufwwwime",
+      "deployed": true,
+      "hasUI": true
+    },
+    {
+      "name": "Pothole Hunter LA",
+      "slug": "pothole-reporter",
+      "description": "Report potholes to LA city with GPS and photos",
+      "urls": {
+        "workers": "https://pothole-reporter.p-d07.workers.dev",
+        "custom": "https://pothole.pbtc21.dev"
+      },
+      "github": "https://github.com/pbtc21/pothole-reporter",
+      "localPath": "~/dev/personal/pothole-reporter",
+      "pricing": {
+        "free": ["/", "/report", "/view/:id", "/image/:id"],
+        "paid": []
+      },
+      "registered": false,
+      "registryId": null,
+      "deployed": true,
+      "hasUI": true
+    },
+    {
+      "name": "sBTC Yield Vault",
+      "slug": "sbtc-yield-vault",
+      "description": "sBTC vault with looping strategy",
+      "urls": {
+        "workers": "https://sbtc-yield-vault.p-d07.workers.dev",
+        "custom": null
+      },
+      "github": "https://github.com/pbtc21/sbtc-yield-vault",
+      "localPath": "~/dev/personal/sbtc-yield-vault",
+      "pricing": {
+        "free": ["/", "/stats", "/position/:address"],
+        "paid": [
+          {"endpoint": "/deposit", "price": 1000},
+          {"endpoint": "/withdraw", "price": 1000}
+        ]
+      },
+      "registered": true,
+      "registryId": null,
+      "deployed": true,
+      "hasUI": false
+    },
+    {
+      "name": "Alpha Intelligence",
+      "slug": "stx402-alpha",
+      "description": "Premium aggregated alpha signals",
+      "urls": {
+        "workers": "https://stx402-alpha.p-d07.workers.dev",
+        "custom": null
+      },
+      "github": "https://github.com/pbtc21/stx402-alpha",
+      "localPath": "~/dev/personal/stx402-alpha",
+      "pricing": {
+        "free": ["/"],
+        "paid": [
+          {"endpoint": "/alpha", "price": 5000}
+        ]
+      },
+      "registered": true,
+      "registryId": null,
+      "deployed": true,
+      "hasUI": false
+    },
+    {
+      "name": "Coin Refill",
+      "slug": "coin-refill",
+      "description": "STX refill service",
+      "urls": {
+        "workers": "https://coin-refill.p-d07.workers.dev",
+        "custom": null
+      },
+      "github": null,
+      "localPath": null,
+      "pricing": {
+        "free": ["/"],
+        "paid": [
+          {"endpoint": "/refill", "price": 1000}
+        ]
+      },
+      "registered": true,
+      "registryId": null,
+      "deployed": true,
+      "hasUI": false
+    },
+    {
+      "name": "x402 Registry",
+      "slug": "x402-registry",
+      "description": "App Store for AI Agents - endpoint registry",
+      "urls": {
+        "workers": "https://x402-registry.p-d07.workers.dev",
+        "custom": null
+      },
+      "github": "https://github.com/pbtc21/x402-registry",
+      "localPath": "~/dev/personal/x402-registry",
+      "pricing": {
+        "free": ["/", "/registry/search", "/registry/discover", "/registry/:id"],
+        "paid": []
+      },
+      "registered": false,
+      "registryId": null,
+      "deployed": true,
+      "hasUI": true,
+      "note": "This IS the registry"
+    },
+    {
+      "name": "x402 Showcase",
+      "slug": "x402-showcase",
+      "description": "Demo showcase of x402 endpoints",
+      "urls": {
+        "workers": "https://x402-showcase.p-d07.workers.dev",
+        "custom": null
+      },
+      "github": "https://github.com/pbtc21/x402-showcase",
+      "localPath": "~/dev/personal/x402-showcase",
+      "pricing": {
+        "free": ["/"],
+        "paid": []
+      },
+      "registered": false,
+      "registryId": null,
+      "deployed": true,
+      "hasUI": true
+    },
+    {
+      "name": "x402 Meme Generator",
+      "slug": "x402-meme",
+      "description": "AI-powered meme generator with x402 payments",
+      "urls": {
+        "workers": "https://x402-meme.p-d07.workers.dev",
+        "custom": null
+      },
+      "github": "https://github.com/pbtc21/x402-meme",
+      "localPath": "~/dev/personal/x402-meme",
+      "pricing": {
+        "free": ["/"],
+        "paid": [
+          {"endpoint": "/generate", "price": 1000}
+        ]
+      },
+      "registered": false,
+      "registryId": null,
+      "deployed": true,
+      "hasUI": true
+    },
+    {
+      "name": "STX402 Agents",
+      "slug": "stx402-agents",
+      "description": "ERC-8004 inspired agent registry with sBTC",
+      "urls": {
+        "workers": "https://stx402-agents.p-d07.workers.dev",
+        "custom": null
+      },
+      "github": "https://github.com/pbtc21/stx402-agents",
+      "localPath": "~/dev/personal/stx402-agents",
+      "pricing": {
+        "free": ["/", "/agents"],
+        "paid": []
+      },
+      "registered": false,
+      "registryId": null,
+      "deployed": true,
+      "hasUI": false
+    },
+    {
+      "name": "Wallet ID Card",
+      "slug": "wallet-id-card",
+      "description": "Generate visual wallet ID cards",
+      "urls": {
+        "workers": "https://wallet-id-card.p-d07.workers.dev",
+        "custom": null
+      },
+      "github": "https://github.com/pbtc21/wallet-id-card",
+      "localPath": "~/dev/personal/wallet-id-card",
+      "pricing": {
+        "free": ["/"],
+        "paid": []
+      },
+      "registered": false,
+      "registryId": null,
+      "deployed": true,
+      "hasUI": true
+    },
+    {
+      "name": "Bitcoin Faces NFT",
+      "slug": "bitcoin-faces-nft",
+      "description": "Bitcoin faces NFT generator",
+      "urls": {
+        "workers": "https://bitcoin-faces-nft.p-d07.workers.dev",
+        "custom": null
+      },
+      "github": "https://github.com/pbtc21/bitcoin-faces-nft",
+      "localPath": "~/dev/personal/bitcoin-faces-nft",
+      "pricing": {
+        "free": ["/"],
+        "paid": []
+      },
+      "registered": false,
+      "registryId": null,
+      "deployed": true,
+      "hasUI": true
+    },
+    {
+      "name": "sBTC Print",
+      "slug": "sbtc-print",
+      "description": "Jack's Magical Object Creator - 3D print with sBTC",
+      "urls": {
+        "workers": "https://sbtc-print.p-d07.workers.dev",
+        "custom": null
+      },
+      "github": "https://github.com/pbtc21/sbtc-print",
+      "localPath": "~/dev/personal/sbtc-print",
+      "pricing": {
+        "free": ["/"],
+        "paid": []
+      },
+      "registered": false,
+      "registryId": null,
+      "deployed": true,
+      "hasUI": true
+    },
+    {
+      "name": "BTC Democracy",
+      "slug": "btc-democracy",
+      "description": "Bitcoin-based voting/democracy app",
+      "urls": {
+        "workers": "https://btc-democracy.p-d07.workers.dev",
+        "custom": null
+      },
+      "github": null,
+      "localPath": null,
+      "pricing": {
+        "free": ["/"],
+        "paid": []
+      },
+      "registered": false,
+      "registryId": null,
+      "deployed": true,
+      "hasUI": true
+    },
+    {
+      "name": "pbtc21.dev Landing",
+      "slug": "pbtc21-landing",
+      "description": "Main landing page for pbtc21.dev",
+      "urls": {
+        "workers": "https://pbtc21-landing.p-d07.workers.dev",
+        "custom": "https://pbtc21.dev"
+      },
+      "github": null,
+      "localPath": "~/dev/personal/pbtc21-landing",
+      "pricing": {
+        "free": ["/"],
+        "paid": []
+      },
+      "registered": false,
+      "registryId": null,
+      "deployed": true,
+      "hasUI": true,
+      "note": "Landing page, not an API"
+    }
+  ],
+  "summary": {
+    "total": 17,
+    "deployed": 17,
+    "registered": 9,
+    "withUI": 14,
+    "onGitHub": 12,
+    "withCustomDomain": 6
+  }
+}
