@@ -369,14 +369,34 @@
       "deployed": true,
       "hasUI": true,
       "note": "Job board for human-agent collaboration"
+    },
+    {
+      "name": "x402 Partners",
+      "slug": "x402-partners",
+      "description": "BD Partner Program - onboarding, earnings tracking, leaderboard",
+      "urls": {
+        "workers": "https://x402-partners.p-d07.workers.dev",
+        "custom": "https://partners.pbtc21.dev"
+      },
+      "github": "https://github.com/pbtc21/x402-partners",
+      "localPath": "~/dev/personal/x402-partners",
+      "pricing": {
+        "free": ["/", "/onboard", "/partners/:id", "/leaderboard", "/admin", "/embed/:id"],
+        "paid": []
+      },
+      "registered": false,
+      "registryId": null,
+      "deployed": true,
+      "hasUI": true,
+      "note": "Partner BD portal for ecosystem growth"
     }
   ],
   "summary": {
-    "total": 18,
-    "deployed": 18,
+    "total": 19,
+    "deployed": 19,
     "registered": 15,
-    "withUI": 15,
-    "onGitHub": 16,
-    "withCustomDomain": 18
+    "withUI": 16,
+    "onGitHub": 17,
+    "withCustomDomain": 19
   }
 }
