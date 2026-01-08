@@ -356,7 +356,7 @@
       "description": "Humans helping agents build the future - job board with verification",
       "urls": {
         "workers": "https://stx402-jobs.p-d07.workers.dev",
-        "custom": null
+        "custom": "https://jobs.pbtc21.dev"
       },
       "github": "https://github.com/pbtc21/stx402-jobs",
       "localPath": "~/dev/personal/stx402-jobs",
@@ -377,6 +377,6 @@
     "registered": 15,
     "withUI": 15,
     "onGitHub": 16,
-    "withCustomDomain": 6
+    "withCustomDomain": 7
   }
 }
