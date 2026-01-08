@@ -10,7 +10,7 @@ Central tracking for all pbtc21 x402 endpoints.
 | Deployed | 17 |
 | Registered on stx402.com | 9 |
 | With Frontend UI | 14 |
-| On GitHub | 12 |
+| On GitHub | 13 |
 | Custom Domain (pbtc21.dev) | 6 |
 
 ## Live Products (pbtc21.dev)
@@ -39,7 +39,6 @@ These endpoints are deployed but not registered on the x402 registry:
 
 ## Not Yet on GitHub
 
-- sbtc-defi-intel
 - coin-refill
 - btc-democracy
 - pbtc21-landing

@@ -75,7 +75,7 @@
         "workers": "https://sbtc-defi-intel.p-d07.workers.dev",
         "custom": "https://sbtc-intel.pbtc21.dev"
       },
-      "github": null,
+      "github": "https://github.com/pbtc21/sbtc-defi-intel",
       "localPath": "~/dev/personal/sbtc-defi-intel",
       "pricing": {
         "free": ["/", "/overview", "/health"],
@@ -356,7 +356,7 @@
     "deployed": 17,
     "registered": 9,
     "withUI": 14,
-    "onGitHub": 12,
+    "onGitHub": 13,
     "withCustomDomain": 6
   }
 }
